@@ -11,7 +11,7 @@ window.onload = function(){
         }
     }
 
-    top_head.addEventListener("click", toggle);
+    //top_head.addEventListener("click", toggle);
 }
 
 
