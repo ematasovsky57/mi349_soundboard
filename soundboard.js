@@ -3,24 +3,6 @@ window.onload = function(){
     const navigation=document.querySelector(".desktop-links");
 
 
-    function AhemPlay(){
-        var ahem = document.getElementById("ahemsound");
-        //var ahem=new Audio('./sounds/ahem_x.wav');
-        ahem.play();
-    }
-    function BatPlay(){
-
-    }
-    function ClapPlay(){
-
-    }
-    function CorkPlay(){
-
-    }
-    function CowPlay(){
-
-    }
-
     function toggle(){
         if (window.getComputedStyle(navigation).display==="none"){
             navigation.display="block" ;
@@ -30,4 +12,23 @@ window.onload = function(){
     }
 
     top_head.addEventListener("click", toggle);
+}
+
+
+function AhemPlay(){
+    var ahem = document.getElementById("ahemsound");
+    //var ahem=new Audio('./sounds/ahem_x.wav');
+    ahem.play();
+}
+function BatPlay(){
+
+}
+function ClapPlay(){
+
+}
+function CorkPlay(){
+
+}
+function CowPlay(){
+
 }
