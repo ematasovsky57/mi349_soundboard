@@ -1,6 +1,9 @@
 html{
     background: gray;
 }
+.sounds{
+    background: white;
+}
 
 input[name="Ahem"]{
     font-size: 24px;
