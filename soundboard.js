@@ -4,7 +4,7 @@ window.onload = function(){
 
 
     function AhemPlay(){
-        var ahem=new Audio("./directoryname./sounds/ahem_x.wav");
+        var ahem=new Audio("./sounds/ahem_x.wav");
         ahem.play();
     }
     function BatPlay(){
