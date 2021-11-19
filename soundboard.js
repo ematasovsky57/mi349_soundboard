@@ -2,6 +2,24 @@ window.onload = function(){
     const top_head= document.querySelector(".first-sounds");
     const navigation=document.querySelector(".desktop-links");
 
+
+    function AhemPlay(){
+        var ahem=new Audio("./directoryname./sounds/ahem_x.wav");
+        ahem.play();
+    }
+    function BatPlay(){
+
+    }
+    function ClapPlay(){
+
+    }
+    function CorkPlay(){
+
+    }
+    function CowPlay(){
+
+    }
+
     function toggle(){
         if (window.getComputedStyle(navigation).display==="none"){
             navigation.display="block" ;
