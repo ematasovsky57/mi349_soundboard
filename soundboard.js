@@ -17,18 +17,21 @@ window.onload = function(){
 
 function AhemPlay(){
     var ahem = document.getElementById("ahemsound");
-    //var ahem=new Audio('./sounds/ahem_x.wav');
     ahem.play();
 }
 function BatPlay(){
-
+    var bat = document.getElementById("batsound");
+    bat.play();
 }
 function ClapPlay(){
-
+    var clap = document.getElementById("clapsound");
+    clap.play();
 }
 function CorkPlay(){
-
+    var cork = document.getElementById("corksound");
+    cork.play();
 }
 function CowPlay(){
-
+    var cow = document.getElementById("cowsound");
+    cow.play();
 }
